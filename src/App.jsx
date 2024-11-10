@@ -1,12 +1,11 @@
+import Routes2 from "./routes/Routes2";
+
 const App = () => {
-    return (
-        <div className='flex justify-center items-center h-screen w-full'>
-            <h1 className='text-teal-800 text-4xl'>
-                Templete with React and Tailwindcss
-            </h1>
-        </div>
-    );
+    //you can use any one technique based on your preference
+    //return <Routes />;
+
+    //currently using the second technique and Logged in is true for demonstration purposes
+    return <Routes2 />;
 };
 
 export default App;
-
